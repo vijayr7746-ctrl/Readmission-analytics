@@ -1,0 +1,18 @@
+# Data (do not commit raw PHI-adjacent or large data files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+data/processed/*.db
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Dashboard binaries (optional — remove if you want to commit them)
+dashboard/*.pbix
